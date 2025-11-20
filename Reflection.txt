@@ -1,0 +1,7 @@
+This Terraform project gave me valuable hands-on experience working with infrastructure across multiple environments. It was my first time deploying with both Docker and Kubernetes, and it helped me understand the importance of modular design and state management in Terraform. 
+I learned how to structure projects effectively, manage sensitive data using variables and database configuration, and properly define dependencies between resources.
+
+One challenge I encountered was needing to stop the Docker application so Kubernetes could use the same port (8080). Moving from standalone Docker containers to Kubernetes orchestration helped me see the differences between managing single services and coordinating them in a clustered environment.
+Debugging networking issues and resolving port conflicts gave me practical problem-solving experience.
+
+Overall, this project strengthened my understanding of how infrastructure components interact and how Terraform can be used to build consistent, version-controlled environments.
