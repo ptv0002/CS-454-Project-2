@@ -1,7 +1,9 @@
 **Project Overview**
+****
 This project shows infrastructure-as-code using Terraform to deploy applications on both Docker and Kubernetes environments. They have a 3-tier application arechitecture with a frontend, backend, and a database.
 
 **Project Structure**
+****
 For the docker project we have the following files that take care of the logic and deployment
 1. main.tf
 2. variables.tf
