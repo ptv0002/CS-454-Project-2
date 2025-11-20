@@ -45,11 +45,11 @@ Python/Flask - Backend API
 PostgreSQL - Database
 
 **Cleanup**
-# Docker cleanup
+**Docker Cleanup**
 cd docker
 terraform destroy
 
-# Kubernetes cleanup  
+**Kubernetes Cleanup** 
 cd ../kubernetes
 terraform destroy
 k3d cluster delete terraform-cluster
