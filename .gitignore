@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl # keep this normally, but OK to ignore if needed
+
+# Docker runtime
+*/postgres-data/
+*.log
+
+# General
+.env
+*.swp
